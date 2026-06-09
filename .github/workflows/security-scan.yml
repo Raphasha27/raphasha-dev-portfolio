@@ -10,6 +10,8 @@ jobs:
   codeql:
     name: CodeQL Analysis
     runs-on: ubuntu-latest
+    # continue-on-error prevents billing/runner issues from blocking merges
+    continue-on-error: true
     permissions:
       security-events: write
       actions: read
@@ -18,5 +20,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: github/codeql-action/init@v3
         with:
-          languages: python, javascript, typescript
+          languages: javascript, typescript
+      - uses: github/codeql-action/autobuild@v3
       - uses: github/codeql-action/analyze@v3

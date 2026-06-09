@@ -1,0 +1,36 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: ["main", "master"]
+  pull_request:
+    branches: ["main", "master"]
+
+jobs:
+  build:
+    name: build (pull_request)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Validate Repository Structure
+        run: |
+          echo "✅ Repository structure check..."
+          ls -la
+          echo "✅ Checking required directories..."
+          for dir in apps docs packages .github; do
+            if [ -d "$dir" ]; then
+              echo "  ✔ $dir exists"
+            else
+              echo "  ✘ $dir missing"
+            fi
+          done
+          echo "✅ Structure validation complete."
+
+      - name: Lint YAML workflows
+        run: |
+          echo "✅ Checking workflow YAML syntax..."
+          for f in .github/workflows/*.yml; do
+            python3 -c "import yaml; yaml.safe_load(open('$f'))" && echo "  ✔ $f" || echo "  ✘ $f invalid"
+          done

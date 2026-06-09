@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "buildCommand": null,
+  "outputDirectory": "docs",
+  "installCommand": null,
+  "framework": null,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://portfolio-iota-eight-90.vercel.app",
+      "permanent": false
+    }
+  ]
+}
