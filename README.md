@@ -8,7 +8,7 @@
 [![CSS](https://img.shields.io/badge/CSS-3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)](LICENSE)
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Site-0EA5E9?style=for-the-badge&logo=github&logoColor=white)](https://raphasha27.github.io/raphasha-dev-portfolio)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Site-0EA5E9?style=for-the-badge&logo=github&logoColor=white)](https://koketso-raphasha.vercel.app)
 [![Kirov Dynamics](https://img.shields.io/badge/Part_of-Kirov_Dynamics-0EA5E9?style=for-the-badge)](https://github.com/Raphasha27/kirov-dynamics)
 
 **Built by [Koketso Raphasha](https://github.com/Raphasha27) — Practical AI for Africa**
@@ -51,11 +51,11 @@ cd raphasha-dev-portfolio
 ```
 GitHub (this repo)
     ↓
-Portfolio → https://raphasha27.github.io/raphasha-dev-portfolio
+Portfolio → https://koketso-raphasha.vercel.app
     ↓
 Case Study → (coming soon)
     ↓
-Live Demo → https://raphasha27.github.io/raphasha-dev-portfolio
+Live Demo → https://koketso-raphasha.vercel.app
     ↓
 Contact → https://github.com/Raphasha27
 ```
