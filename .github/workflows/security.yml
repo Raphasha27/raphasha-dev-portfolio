@@ -2,24 +2,40 @@ name: Security Vulnerability Scan
 
 on:
   push:
-    branches: ["main", "master"]
+    branches: [main]
   pull_request:
-    branches: ["main", "master"]
+    branches: [main]
   schedule:
-    - cron: "0 0 * * 0"
+    - cron: "0 6 * * 0"  # Weekly Sunday 6am
+
+permissions:
+  contents: read
+  security-events: write
 
 jobs:
-  trivy:
-    name: Trivy Security Scan
+  dependency-scan:
+    name: Dependency Audit
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Run Trivy FS Scanner
-        uses: aquasecurity/trivy-action@master
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          scan-type: "fs"
-          ignore-unfixed: true
-          severity: "CRITICAL,HIGH"
-          format: "table"
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: npm audit (high+ only)
+        run: npm audit --audit-level=high --json > npm-audit-report.json || true
+
+      - name: Upload audit report
+        uses: actions/upload-artifact@v4
+        with:
+          name: security-audit-report
+          path: npm-audit-report.json
+          retention-days: 30

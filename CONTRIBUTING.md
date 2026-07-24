@@ -1,12 +1,21 @@
-﻿# Contributing
+# Contributing
 
-## Workflow
-1. Fork repository
-2. Create a feature branch
-3. Commit changes
-4. Open a Pull Request
+Thanks for your interest in contributing!
 
-## Rules
-- Keep secrets out of commits
-- Follow clean code principles
-- Add tests where applicable
+## How to contribute
+
+1. Fork the repo
+2. Create a feature branch: git checkout -b feature/amazing-feature
+3. Commit your changes: git commit -m 'feat: add amazing feature'
+4. Push: git push origin feature/amazing-feature
+5. Open a Pull Request
+
+## Code style
+
+- Follow existing patterns in the codebase
+- Write tests for new functionality
+- Keep PRs focused on a single concern
+
+## Issues
+
+Report bugs and suggest features via [GitHub Issues](../../issues).

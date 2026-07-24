@@ -1,38 +1,70 @@
 <div align="center">
-
-# Raphasha Dev Portfolio
-
-**Professional developer portfolio showcasing AI engineering, systems architecture, and DevSecOps**
-
-[![HTML](https://img.shields.io/badge/HTML-5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS](https://img.shields.io/badge/CSS-3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)](LICENSE)
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Site-0EA5E9?style=for-the-badge&logo=github&logoColor=white)](https://koketso-raphasha.vercel.app)
-[![Kirov Dynamics](https://img.shields.io/badge/Part_of-Kirov_Dynamics-0EA5E9?style=for-the-badge)](https://github.com/Raphasha27/kirov-dynamics)
-
-**Built by [Koketso Raphasha](https://github.com/Raphasha27) — Practical AI for Africa**
-
+  <h1>Koketso Raphasha — Portfolio</h1>
+  <p>
+    <a href="https://portfolio-iota-eight-90.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-Visit_Site-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+    <a href="#"><img src="https://img.shields.io/badge/Status-Deployed-22C55E?style=for-the-badge" /></a>
+    <a href="https://raphashakoketso.gumroad.com/l/ai-agent-blueprint"><img src="https://img.shields.io/badge/AI_Agent-Free-FF90E8?style=for-the-badge&logo=gumroad&logoColor=white" /></a>
+    <a href="https://raphashakoketso.gumroad.com/l/etl-pipeline-suite"><img src="https://img.shields.io/badge/ETL_Suite-$45-FF90E8?style=for-the-badge&logo=gumroad&logoColor=white" /></a>
+  </p>
 </div>
 
 ## Overview
 
-Professional portfolio site highlighting expertise in AI engineering, systems architecture, DevSecOps, and cybersecurity. Features project showcase, skills matrix, and professional journey.
+Immersive 3D portfolio built with React, Framer Motion, and interactive visualizations. Showcases projects, technical skills, and professional journey in an engaging experience.
+
+**Live:** https://portfolio-iota-eight-90.vercel.app/
+
+🔗 **Live Demo:** [https://koketso-raphasha.vercel.app](https://koketso-raphasha.vercel.app)
+
+## Stack
+
+- **Framework:** React + Vite
+- **Animation:** Framer Motion, 3D transforms
+- **Styling:** CSS3
+- **Deployment:** Vercel
+
+## Local Development
+
+```bash
+git clone https://github.com/Raphasha27/Portfolio.git
+cd Portfolio
+npm install
+npm run dev
+```
 
 ## Features
 
-- Project portfolio with live demos
-- Technical skills visualization
-- Professional experience timeline
+- Interactive 3D hero section
+- Project showcase with live links
+- Skills visualization
 - Responsive design
 - Dark theme
+- Docker support
 
-## Getting Started
+## Deployment
 
-```bash
-git clone https://github.com/Raphasha27/raphasha-dev-portfolio.git
-cd raphasha-dev-portfolio
-```
+The site deploys automatically via Vercel on push to `main`.
+
+<br/>
+
+---
+
+<h3 align="center">🐍 Part of the <a href="https://github.com/Raphasha27">Raphasha27</a> Ecosystem</h3>
+
+<p align="center">
+  <a href="https://github.com/Raphasha27/Raphasha27">
+    <img src="https://img.shields.io/badge/Back_to_Profile-0D1117?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://raphasha27.github.io/Raphasha27/ai-snake-game/">
+    <img src="https://img.shields.io/badge/▶_Play_AI_Snake-0EA5E9?style=for-the-badge&logo=javascript&logoColor=white" />
+  </a>
+</p>
+
+## License
+
+MIT
+---
 
 ## Cybersecurity Portfolio
 
@@ -51,11 +83,11 @@ cd raphasha-dev-portfolio
 ```
 GitHub (this repo)
     ↓
-Portfolio → https://koketso-raphasha.vercel.app
+Portfolio → https://portfolio-iota-eight-90.vercel.app/
     ↓
 Case Study → (coming soon)
     ↓
-Live Demo → https://koketso-raphasha.vercel.app
+Live Demo → https://portfolio-iota-eight-90.vercel.app/
     ↓
 Contact → https://github.com/Raphasha27
 ```

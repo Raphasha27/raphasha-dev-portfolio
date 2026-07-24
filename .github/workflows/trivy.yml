@@ -1,0 +1,42 @@
+name: Security Scan (Private)
+
+on:
+  # Remove scheduled scans to prevent public exposure
+  workflow_dispatch:  # Manual trigger only
+  push:
+    branches: [main]
+    paths:
+      - "package*.json"
+      - "src/**"
+      - ".github/workflows/trivy.yml"
+
+permissions:
+  contents: read
+  # Remove security-events write to prevent public reports
+
+jobs:
+  trivy-scan:
+    name: Private Security Scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run Trivy filesystem scan
+        uses: aquasecurity/trivy-action@0.29.0
+        with:
+          scan-type: "fs"
+          scan-ref: "."
+          ignore-unfixed: true
+          format: "table"  # Changed from sarif to table (no upload)
+          severity: "CRITICAL,HIGH"
+          skip-dirs: "node_modules,.git,.next,dist,build"
+          exit-code: "0"
+          # Removed output file - results only in workflow logs
+
+      # Removed GitHub Security upload to keep results private
+      - name: Security scan completed
+        run: |
+          echo "✅ Security scan completed successfully"
+          echo "📊 Results are available in the workflow logs above"
+          echo "🔒 No vulnerabilities uploaded to public security tab"
