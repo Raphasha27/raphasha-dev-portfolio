@@ -1,7 +1,6 @@
 import { useMemo } from 'react';
 import nodeLogo from '../assets/node-logo.svg';
 import mongodbLogo from '../assets/mongodb-logo.svg';
-import whopLogo from '../assets/whop-logo.svg';
 import ibmLogo from '../assets/ibm-logo.svg';
 
 export const Icon = ({ name, size = 16, className = "" }) => {
