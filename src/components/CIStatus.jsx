@@ -177,7 +177,6 @@ const passingProjects = [
 const CIStatus = () => {
   const [projects, setProjects] = useState(passingProjects);
   const [runningPipelines, setRunningPipelines] = useState({});
-  const [selectedCategory, setSelectedCategory] = useState('all');
   const [isLoading] = useState(false);
   const error = null;
 
@@ -242,12 +241,9 @@ const CIStatus = () => {
     }, 450);
   };
 
-  const categories = ['all', 'AI/ML', 'Platform', 'Security', 'IoT', 'Education', 'NLP', 'AgriTech', 'Business'];
-  
-  const filteredProjects = selectedCategory === 'all' 
-    ? projects 
-    : projects.filter(p => p.category === selectedCategory);
 
+  
+  
   const avgCoverage = Math.round(
     projects.reduce((sum, p) => sum + parseInt(p.coverage), 0) / projects.length
   );

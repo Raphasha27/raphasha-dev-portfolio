@@ -171,7 +171,7 @@ const Navbar = ({ setCmdOpen }) => {
             {/* ── Navigation ── */}
             <nav className="flex flex-col px-4 mt-6 gap-1">
               <div className="text-[9px] font-bold text-white/25 uppercase tracking-[0.25em] px-3 mb-2">Navigation</div>
-              {navItems.map((item, i) => {
+              {navItems.map((item) => {
                 const icons = { home: 'home', about: 'user', experience: 'briefcase', skills: 'cpu', projects: 'code', contact: 'mail' };
                 return (
                   <button
