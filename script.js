@@ -26,7 +26,7 @@ const imageMap = {
 content = content.replace(/title:\s*"([^"]+)"([^}]+?)\n\s*}/g, (match, title, rest) => {
   const img = imageMap[title] || '/proj-kirov.png';
   if (rest.includes('image:')) return match;
-  return 	itle: "",\n    image: ""\n  };
+  return `title: "${title}"${rest}\n    image: "${img}"\n  }`;
 });
 
 fs.writeFileSync('src/components/Projects.jsx', content);
