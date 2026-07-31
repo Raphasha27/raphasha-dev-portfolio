@@ -18,7 +18,7 @@ const projects = [
     link: "https://github.com/Raphasha27/AI-Business-Engine",
     liveUrl: "https://web-gamma-nine-c2cqi2h058.vercel.app",
     status: "live",
-    image: "/proj-ai-business.png"
+    image: "/proj-ai-business.webp"
   },
   {
     title: "Mzansi AgriAI",
@@ -32,7 +32,7 @@ const projects = [
     link: "https://github.com/Raphasha27/Mzansi-AgriAI",
     liveUrl: "https://mzansi-agriai-demo.vercel.app",
     status: "live",
-    image: "/proj-agri-ai.png"
+    image: "/proj-agri-ai.webp"
   },
   {
     title: "EskomSense AI",
@@ -46,7 +46,7 @@ const projects = [
     link: "https://github.com/Raphasha27/EskomSense-AI",
     liveUrl: "https://eskomsense-ai-demo.vercel.app",
     status: "live",
-    image: "/proj-eskom.png"
+    image: "/proj-eskom.webp"
   },
   {
     title: "NoShowIQ",
@@ -60,7 +60,7 @@ const projects = [
     link: "https://github.com/Raphasha27/NoShowIQ",
     liveUrl: "https://noshowiq.vercel.app",
     status: "live",
-    image: "/proj-noshowiq.png"
+    image: "/proj-noshowiq.webp"
   },
   {
     title: "Sumbandila",
@@ -73,7 +73,7 @@ const projects = [
     link: "https://github.com/Raphasha27/Sumbandila-App",
     liveUrl: "https://landing-five-orcin-61.vercel.app",
     status: "live",
-    image: "/proj-sumbandila.png"
+    image: "/proj-sumbandila.webp"
   },
   {
     title: "Kirov Dynamics",
@@ -87,7 +87,7 @@ const projects = [
     link: "https://github.com/Raphasha27/Portfolio",
     liveUrl: "https://kirov-dynamics-technology.github.io/kirov-dynamics/",
     status: "live",
-    image: "/proj-kirov.png"
+    image: "/proj-kirov.webp"
   },
   {
     title: "DevForge AI",
@@ -109,7 +109,7 @@ const projects = [
     role: "Software Engineer",
     color: "from-emerald-500/20 to-teal-500/20",
     link: "https://github.com/Raphasha27/ai-job-market-intelligence",
-    image: "/finance.png"
+    image: "/finance.webp"
   },
   {
     title: "CyberShield Modern",
@@ -120,7 +120,7 @@ const projects = [
     role: "SOC Engineer",
     color: "from-[#00FF9C]/20 to-cyan-500/20",
     link: "https://github.com/Raphasha27/cybershield_soc",
-    image: "/cyberflow.png"
+    image: "/cyberflow.webp"
   },
   {
     title: "SupportHive-C",
@@ -175,7 +175,7 @@ const projects = [
     role: "Data Engineer",
     color: "from-emerald-500/20 to-cyan-500/20",
     link: "https://github.com/Raphasha27/gauteng-transport-dashboard",
-    image: "/gauteng-map.png"
+    image: "/gauteng-map.webp"
   },
   {
     title: "EskomSense AI",
@@ -186,7 +186,7 @@ const projects = [
     role: "Energy AI Lead",
     color: "from-yellow-500/20 to-orange-500/20",
     link: "https://github.com/Raphasha27/EskomSense-AI",
-    image: "/proj-eskom.png"
+    image: "/proj-eskom.webp"
   },
   {
     title: "Townships Market AI",
@@ -230,7 +230,7 @@ const projects = [
     role: "AgriTech Dev",
     color: "from-green-500/20 to-emerald-500/20",
     link: "https://github.com/Raphasha27/Mzansi-AgriAI",
-    image: "/proj-agri-ai.png"
+    image: "/proj-agri-ai.webp"
   },
   {
     title: "YouthCode ZA",
@@ -252,7 +252,7 @@ const projects = [
     role: "Business Architect",
     color: "from-yellow-500/20 to-[#00FF9C]/20",
     link: "https://github.com/Raphasha27/AI-Business-Engine",
-    image: "/proj-ai-business.png"
+    image: "/proj-ai-business.webp"
   },
   {
     title: "Titanic ML (Kaggle)",

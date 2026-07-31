@@ -1,15 +1,15 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Icon } from './Icons';
-import richfieldLogo from '../assets/richfield-logo-new.png';
-import wethinkcodeLogo from '../assets/wethinkcode-logo.png';
-import capacitiLogo from '../assets/capaciti-logo.png';
-import yesLogo from '../assets/yes-badge.png';
+import richfieldLogo from '../assets/richfield-logo-new.webp';
+import wethinkcodeLogo from '../assets/wethinkcode-logo.webp';
+import capacitiLogo from '../assets/capaciti-logo.webp';
+import yesLogo from '../assets/yes-badge.webp';
 import ciscoLogo from '../assets/cisco-logo.svg';
 import courseraLogo from '../assets/coursera-logo.svg';
 import googleLogo from '../assets/google-logo.svg';
 import ibmLogo from '../assets/ibm-logo.svg';
-import kirovLogo from '../assets/kirov-logo.png';
+import kirovLogo from '../assets/kirov-logo.webp';
 
 const partners = [
   { name: "Richfield", sub: "BSc CS · Distinction", logo: richfieldLogo, bg: "bg-[#003087]" },
