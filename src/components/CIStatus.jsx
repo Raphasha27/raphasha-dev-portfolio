@@ -14,7 +14,7 @@ const passingProjects = [
     coverage: "94%",
     lastBuild: "2h ago",
     icon: "zap",
-    image: "/proj-eskom-full.png"
+    image: "/proj-eskom-full.webp"
   },
   { 
     name: "Townships Market AI", 
@@ -26,7 +26,7 @@ const passingProjects = [
     coverage: "91%",
     lastBuild: "5h ago",
     icon: "building",
-    image: "/proj-townships.png"
+    image: "/proj-townships.webp"
   },
   { 
     name: "YouthCode ZA", 
@@ -38,7 +38,7 @@ const passingProjects = [
     coverage: "89%",
     lastBuild: "1d ago",
     icon: "graduationCap",
-    image: "/proj-youthcode.png"
+    image: "/proj-youthcode.webp"
   },
   { 
     name: "SA Language AI", 
@@ -50,7 +50,7 @@ const passingProjects = [
     coverage: "92%",
     lastBuild: "3h ago",
     icon: "globe",
-    image: "/proj-salanguage.png"
+    image: "/proj-salanguage.webp"
   },
   { 
     name: "WaterWatch SA", 
@@ -62,7 +62,7 @@ const passingProjects = [
     coverage: "88%",
     lastBuild: "6h ago",
     icon: "signal",
-    image: "/proj-waterwatch.png"
+    image: "/proj-waterwatch.webp"
   },
   { 
     name: "Mzansi AgriAI", 
@@ -74,7 +74,7 @@ const passingProjects = [
     coverage: "90%",
     lastBuild: "4h ago",
     icon: "globe",
-    image: "/proj-agri-ai.png"
+    image: "/proj-agri-ai.webp"
   },
   { 
     name: "AI Business Engine", 
@@ -86,7 +86,7 @@ const passingProjects = [
     coverage: "87%",
     lastBuild: "8h ago",
     icon: "zap",
-    image: "/proj-ai-business.png"
+    image: "/proj-ai-business.webp"
   },
   { 
     name: "Network Port Scanner", 

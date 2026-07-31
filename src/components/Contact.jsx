@@ -1,7 +1,7 @@
 import { useState, Fragment } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Icon } from './Icons';
-import gautengMap from '../assets/gauteng-map.png';
+import gautengMap from '../assets/gauteng-map.webp';
 
 const Contact = () => {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });

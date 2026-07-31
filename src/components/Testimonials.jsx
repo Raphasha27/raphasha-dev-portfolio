@@ -5,28 +5,28 @@ const testimonials = [
     name: "Thandi Dlamini",
     role: "Founder @ Vulamanzi Tech",
     text: "Koketso's insight into AI and data analytics helped us pivot our strategy with data-backed confidence. The AI-driven market analysis he built transformed how we understand our customers. Highly recommended!",
-    image: "/testimonials/thandi_dlamini.png",
+    image: "/testimonials/thandi_dlamini.webp",
     tag: "Client"
   },
   {
     name: "Sipho Ndlovu",
     role: "Senior Engineer @ Kirov Dynamics",
     text: "As a teammate, Koketso brings a level of technical depth that's rare. His ability to architect complex agentic systems in Go and Python while keeping the codebase clean and maintainable is genuinely inspiring.",
-    image: "/testimonials/sipho_ndlovu.png",
+    image: "/testimonials/sipho_ndlovu.webp",
     tag: "Team Member"
   },
   {
     name: "Lerato Mokoena",
     role: "CTO @ AfriCloud Systems",
     text: "The real-time infrastructure platform Kirov Dynamics built for us exceeded every expectation. It's robust, scalable, and the developer experience is second to none. A true professional who delivers.",
-    image: "/testimonials/lerato_mokoena.png",
+    image: "/testimonials/lerato_mokoena.webp",
     tag: "Client"
   },
   {
     name: "Bongani Khumalo",
     role: "VP Engineering @ DataVeld SA",
     text: "Working with Koketso was a game-changer. The autonomous infrastructure he designed reduced our operational overhead by 40% in just three months. Precision engineering with real business impact.",
-    image: "/testimonials/bongani_khumalo.png",
+    image: "/testimonials/bongani_khumalo.webp",
     tag: "Client"
   }
 ];

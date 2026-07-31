@@ -10,7 +10,7 @@ const vercelProjects = [
     icon: "zap",
     color: "from-yellow-500/20 to-emerald-500/20",
     tech: ["Next.js", "React", "Vercel"],
-    image: "/proj-ai-business.png"
+    image: "/proj-ai-business.webp"
   },
   {
     title: "Mzansi AgriAI",
@@ -20,7 +20,7 @@ const vercelProjects = [
     icon: "globe",
     color: "from-green-500/20 to-emerald-500/20",
     tech: ["HTML", "CSS", "JS", "Vercel"],
-    image: "/proj-agri-ai.png"
+    image: "/proj-agri-ai.webp"
   },
   {
     title: "EskomSense AI",
@@ -30,7 +30,7 @@ const vercelProjects = [
     icon: "zap",
     color: "from-yellow-500/20 to-orange-500/20",
     tech: ["HTML", "CSS", "JS", "Vercel"],
-    image: "/proj-eskom-full.png"
+    image: "/proj-eskom-full.webp"
   },
   {
     title: "NoShowIQ",
@@ -40,7 +40,7 @@ const vercelProjects = [
     icon: "brain",
     color: "from-purple-500/20 to-pink-500/20",
     tech: ["Next.js", "Python", "FastAPI", "Vercel"],
-    image: "/proj-noshowiq.png"
+    image: "/proj-noshowiq.webp"
   },
   {
     title: "Sumbandila",
@@ -50,7 +50,7 @@ const vercelProjects = [
     icon: "shield",
     color: "from-[#00FF9C]/20 to-cyan-500/20",
     tech: ["Next.js", "Tailwind", "API Integration", "Vercel"],
-    image: "/proj-sumbandila.png"
+    image: "/proj-sumbandila.webp"
   },
   {
     title: "Kirov Dynamics",
@@ -60,7 +60,7 @@ const vercelProjects = [
     icon: "cpu",
     color: "from-[#00FF9C]/20 to-emerald-500/20",
     tech: ["React", "Vite", "Framer", "Vercel"],
-    image: "/proj-kirov.png"
+    image: "/proj-kirov.webp"
   }
 ];
 

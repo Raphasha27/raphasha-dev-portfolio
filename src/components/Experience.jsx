@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 import { Icon } from './Icons';
 
 // Logo Assets
-import yesBadge from '../assets/yes-badge.png';
-import wtcLogo from '../assets/wethinkcode-logo.png';
-import richfieldLogo from '../assets/richfield-logo-new.png';
-import orangeLogo from '../assets/orange-cyberdefense-logo.png';
+import yesBadge from '../assets/yes-badge.webp';
+import wtcLogo from '../assets/wethinkcode-logo.webp';
+import richfieldLogo from '../assets/richfield-logo-new.webp';
+import orangeLogo from '../assets/orange-cyberdefense-logo.webp';
 
 const experiences = [
   {
