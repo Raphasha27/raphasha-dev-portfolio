@@ -58,7 +58,7 @@ const projects = [
     color: "from-emerald-400/20 to-cyan-500/20",
     featured: true,
     link: "https://github.com/Raphasha27/NoShowIQ",
-    liveUrl: "https://noshowiq.vercel.app",
+    liveUrl: "https://kirov-dynamics-technology.github.io/kirov-dynamics/",
     status: "live",
     image: "/proj-noshowiq.webp"
   },
