@@ -34,7 +34,7 @@ jobs:
         run: npm audit --audit-level=high --json > npm-audit-report.json || true
 
       - name: Upload audit report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: security-audit-report
           path: npm-audit-report.json
