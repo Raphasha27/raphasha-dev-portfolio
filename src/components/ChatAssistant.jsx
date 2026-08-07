@@ -140,7 +140,7 @@ const ChatAssistant = () => {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.9 }}
             className="glass w-[calc(100vw-2rem)] sm:w-[340px] max-w-sm mb-4 flex flex-col overflow-hidden border border-[#00FF9C]/30 shadow-[0_0_40px_rgba(0,255,156,0.15)] rounded-2xl"
-            style={{ height: '460px' }}
+            style={{ height: 'min(460px, 70dvh)' }}
           >
             {/* Header */}
             <div className="p-4 border-b border-white/5 flex justify-between items-center bg-[#00FF9C]/5 backdrop-blur-md shrink-0">
