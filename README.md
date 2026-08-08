@@ -1,4 +1,12 @@
 <div align="center">
+  <a href="https://raphasha27.github.io/raphasha-dev-portfolio/">
+    <img src="https://img.shields.io/badge/LIVE_DEPLOYMENT-View_App-0EA5E9?style=for-the-badge&logo=github&logoColor=white" alt="Live Deployment" />
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
   <h1>Koketso Raphasha — Portfolio</h1>
   <p>
     <a href="https://portfolio-iota-eight-90.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-Visit_Site-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
