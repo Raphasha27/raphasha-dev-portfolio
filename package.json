@@ -49,5 +49,11 @@
     "vite": "^8.2.1",
     "vite-plugin-compression": "^0.5.1",
     "vitest": "^4.1.10"
+  },
+  "overrides": {
+    "brace-expansion": "^5.0.9",
+    "nanoid": "^5.1.5",
+    "fast-uri": "^4.1.2",
+    "undici": "^8.10.0"
   }
 }
