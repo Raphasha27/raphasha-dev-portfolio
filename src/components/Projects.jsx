@@ -30,7 +30,7 @@ const projects = [
     color: "from-green-500/20 to-emerald-500/20",
     featured: true,
     link: "https://github.com/Raphasha27/Mzansi-AgriAI",
-    liveUrl: "https://mzansi-agriai-demo.vercel.app",
+    liveUrl: "https://mzansi-agriai.vercel.app",
     status: "live",
     image: "/proj-agri-ai.webp"
   },
@@ -44,7 +44,7 @@ const projects = [
     color: "from-yellow-500/20 to-orange-500/20",
     featured: true,
     link: "https://github.com/Raphasha27/EskomSense-AI",
-    liveUrl: "https://eskomsense-ai-demo.vercel.app",
+    liveUrl: "https://eskomsense-ai.vercel.app",
     status: "live",
     image: "/proj-eskom.webp"
   },
@@ -58,7 +58,7 @@ const projects = [
     color: "from-emerald-400/20 to-cyan-500/20",
     featured: true,
     link: "https://github.com/Raphasha27/NoShowIQ",
-    liveUrl: "https://kirov-dynamics-technology.github.io/kirov-dynamics/",
+    liveUrl: "https://noshowiq.vercel.app",
     status: "live",
     image: "/proj-noshowiq.webp"
   },
@@ -71,7 +71,7 @@ const projects = [
     role: "Full Stack Dev",
     color: "from-blue-500/20 to-purple-500/20",
     link: "https://github.com/Raphasha27/Sumbandila-App",
-    liveUrl: "https://landing-five-orcin-61.vercel.app",
+    liveUrl: "https://sumbandila-app.vercel.app",
     status: "live",
     image: "/proj-sumbandila.webp"
   },
@@ -85,7 +85,7 @@ const projects = [
     color: "from-purple-500/20 to-pink-500/20",
     featured: true,
     link: "https://github.com/Raphasha27/Portfolio",
-    liveUrl: "https://kirov-dynamics-technology.github.io/kirov-dynamics/",
+    liveUrl: "https://kirov-dynamics.vercel.app",
     status: "live",
     image: "/proj-kirov.webp"
   },
@@ -509,4 +509,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
