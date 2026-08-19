@@ -1,28 +1,19 @@
 <div align="center">
-  <a href="https://raphasha27.github.io/raphasha-dev-portfolio/">
-    <img src="https://img.shields.io/badge/LIVE_DEPLOYMENT-View_App-0EA5E9?style=for-the-badge&logo=github&logoColor=white" alt="Live Deployment" />
+  <a href="https://raphasha-dev-portfolio.vercel.app">
+    <img src="https://img.shields.io/badge/LIVE_DEMO-View_Site-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+  </a>
+  <a href="https://raphasha27.github.io/raphasha-demos/">
+    <img src="https://img.shields.io/badge/Demos_Hub-More-22D3EE?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </div>
 
 <br/>
 
-<div align="center">
-  <h1>Koketso Raphasha — Portfolio</h1>
-  <p>
-    <a href="https://portfolio-iota-eight-90.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-Visit_Site-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-    <a href="#"><img src="https://img.shields.io/badge/Status-Deployed-22C55E?style=for-the-badge" /></a>
-    <a href="https://raphashakoketso.gumroad.com/l/ai-agent-blueprint"><img src="https://img.shields.io/badge/AI_Agent-Free-FF90E8?style=for-the-badge&logo=gumroad&logoColor=white" /></a>
-    <a href="https://raphashakoketso.gumroad.com/l/etl-pipeline-suite"><img src="https://img.shields.io/badge/ETL_Suite-$45-FF90E8?style=for-the-badge&logo=gumroad&logoColor=white" /></a>
-  </p>
-</div>
+# Koketso Raphasha — Portfolio
 
-## Overview
+> **Live:** [https://raphasha-dev-portfolio.vercel.app](https://raphasha-dev-portfolio.vercel.app)
 
-Immersive 3D portfolio built with React, Framer Motion, and interactive visualizations. Showcases projects, technical skills, and professional journey in an engaging experience.
-
-**Live:** https://portfolio-iota-eight-90.vercel.app/
-
-🔗 **Live Demo:** [https://koketso-raphasha.vercel.app](https://koketso-raphasha.vercel.app)
+Immersive developer portfolio built with React, Vite and Framer Motion — showcasing projects, technical skills and the professional journey in an engaging 3D experience.
 
 ## Stack
 
@@ -34,8 +25,8 @@ Immersive 3D portfolio built with React, Framer Motion, and interactive visualiz
 ## Local Development
 
 ```bash
-git clone https://github.com/Raphasha27/Portfolio.git
-cd Portfolio
+git clone https://github.com/Raphasha27/raphasha-dev-portfolio.git
+cd raphasha-dev-portfolio
 npm install
 npm run dev
 ```
@@ -45,7 +36,7 @@ npm run dev
 - Interactive 3D hero section
 - Project showcase with live links
 - Skills visualization
-- Responsive design
+- Responsive design (mobile-friendly)
 - Dark theme
 - Docker support
 
@@ -60,52 +51,15 @@ The site deploys automatically via Vercel on push to `main`.
 <h3 align="center">🐍 Part of the <a href="https://github.com/Raphasha27">Raphasha27</a> Ecosystem</h3>
 
 <p align="center">
-  <a href="https://github.com/Raphasha27/Raphasha27">
+  <a href="https://github.com/Raphasha27">
     <img src="https://img.shields.io/badge/Back_to_Profile-0D1117?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   &nbsp;
-  <a href="https://raphasha27.github.io/Raphasha27/ai-snake-game/">
-    <img src="https://img.shields.io/badge/▶_Play_AI_Snake-0EA5E9?style=for-the-badge&logo=javascript&logoColor=white" />
+  <a href="https://raphasha27.github.io/raphasha-demos/">
+    <img src="https://img.shields.io/badge/Explore_All_Demos-22D3EE?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
 </p>
 
 ## License
 
 MIT
----
-
-## Cybersecurity Portfolio
-
-| Project | Description |
-|---------|-------------|
-| [Network Port Scanner](https://github.com/Raphasha27/Network-Port-Scanner) | Multi-threaded scanning with banner grabbing |
-| [Password Analyzer](https://github.com/Raphasha27/Password-Analyzer) | Entropy calculation and NIST scoring |
-| [Password Hasher](https://github.com/Raphasha27/Password-Hasher) | bcrypt, Argon2, PBKDF2 comparison |
-| [Suspicious URL Checker](https://github.com/Raphasha27/Suspicious-URL-Checker) | Phishing URL and homograph detection |
-| [Phishing Awareness Game](https://github.com/Raphasha27/Phishing-Awareness-Game) | Gamified security awareness training |
-| [DDoS Detection Simulator](https://github.com/Raphasha27/DDOS-Detection-Simulator) | Traffic simulation and alert generation |
-| [Insider Threat Detector](https://github.com/Raphasha27/Insider-Threat-Detector) | Behavioral analytics for threat simulation |
-
-## Product Ladder
-
-```
-GitHub (this repo)
-    ↓
-Portfolio → https://portfolio-iota-eight-90.vercel.app/
-    ↓
-Case Study → (coming soon)
-    ↓
-Live Demo → https://portfolio-iota-eight-90.vercel.app/
-    ↓
-Contact → https://github.com/Raphasha27
-```
-
-Part of the [Kirov Dynamics](https://github.com/Raphasha27/kirov-dynamics) ecosystem.
-
-**Built by Koketso Raphasha — Practical AI for Africa**
-
-## Contributors
-
-This project is developed and maintained together with the team:
-- [Raphasha27](https://github.com/Raphasha27) — Project lead & maintainer
-- [raphashakoketso99](https://github.com/raphashakoketso99) — Contributor
