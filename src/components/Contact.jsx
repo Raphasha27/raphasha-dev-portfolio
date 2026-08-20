@@ -226,7 +226,7 @@ const Contact = () => {
                     <div className="flex items-center gap-4 pt-2">
                       <div className="relative p-2 rounded-xl border border-white/10 bg-white/5 hover:border-[#00FF9C]/30 transition-colors shrink-0">
                         <img
-                          src={`https://api.qrserver.com/v1/create-qr-code/?size=72x72&data=${encodeURIComponent('https://koketso-raphasha.vercel.app')}&color=00FF9C&bgcolor=000814`}
+                          src={`https://api.qrserver.com/v1/create-qr-code/?size=72x72&data=${encodeURIComponent('https://raphasha-dev-portfolio.vercel.app')}&color=00FF9C&bgcolor=000814`}
                           alt="Portfolio QR Code"
                           className="w-[72px] h-[72px] rounded-lg"
                           loading="lazy"

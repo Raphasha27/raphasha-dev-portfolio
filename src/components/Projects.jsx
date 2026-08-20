@@ -71,7 +71,7 @@ const projects = [
     role: "Full Stack Dev",
     color: "from-blue-500/20 to-purple-500/20",
     link: "https://github.com/Raphasha27/Sumbandila-App",
-    liveUrl: "https://sumbandila-app.vercel.app",
+    liveUrl: "https://landing-five-orcin-61.vercel.app",
     status: "live",
     image: "/proj-sumbandila.webp"
   },
